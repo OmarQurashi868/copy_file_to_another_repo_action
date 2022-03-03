@@ -3,6 +3,8 @@
 set -e
 set -x
 
+cat package.json
+
 if [ -z "$INPUT_SOURCE_FILE" ]
 then
   echo "Source file must be defined"
